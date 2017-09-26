@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h3>你喜欢什么<% for (var i = 0; i < sports.length; i++){%>运动
+          <ul>
+          	<li>我关注<%= sports[i].title%>运动；原因是<%= sports[i].desc %></li>
+          </ul>
+          <%}%>
+	</h3>
+	
+</body>
+</html>
